@@ -1,0 +1,16 @@
+{
+  "name": "syncdesk",
+  "version": "1.0.0",
+  "description": "ซิงก์คลิปบอร์ด ไฟล์ และรีโมตระหว่างคอมกับมือถือ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "ws": "^8.18.0"
+  }
+}
